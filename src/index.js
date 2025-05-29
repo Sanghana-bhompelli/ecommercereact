@@ -3,11 +3,27 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Category from './Category';
+import Customer from './Customer';
+import Employess from './Employess';
+import OrderDetails from './OrderDetails';
+import Orders from './Orders';
+import Products from './Products';
+import Shippers from './Shippers';
+import Suppliers from './Suppliers';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Category />
+    <Customer />
+    <Employess />
+    <OrderDetails />
+    <Orders />
+    <Products />
+    <Shippers />
+    <Suppliers />
   </React.StrictMode>
 );
 
